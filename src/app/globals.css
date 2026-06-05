@@ -2,8 +2,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f7f5f3;
-  --foreground: #303030;
+  --background: #ffffff;
+  --foreground: #f7f5f3;
   --accent: #ff0086;
   --accent-yellow: #fffc00;
   --muted: #7a5bf1;
@@ -12,8 +12,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #1a1714;
-    --foreground: #ffffff;
+    --background: #141414;
+    --foreground: #f7f5f3;
     --accent: #ff0086;
     --accent-yellow: #fffc00;
     --muted: #57edd8;
@@ -22,40 +22,18 @@
 }
 
 body {
-  background: linear-gradient(
-    135deg,
-    var(--background) 0%,
-    #f0ede9 25%,
-    #ebe8e4 50%,
-    #f5f2ee 75%,
-    var(--background) 100%
-  );
+  background: var(--background);
   color: var(--foreground);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  background-size: 400% 400%;
-  animation: gradientShift 20s ease infinite;
   position: relative;
   line-height: 1.4;
   overflow-x: hidden;
   min-height: 100vh;
 }
 
-/* Animated gradient background */
-@keyframes gradientShift {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 /* Playful floating elements */
-body::before {
+.bg-overlay {
   content: "";
   position: fixed;
   top: 0;
@@ -64,34 +42,16 @@ body::before {
   height: 100%;
   pointer-events: none;
   z-index: -1;
-  background-image: 
-    /* Large circles with accent colors */ radial-gradient(
-      circle at 15% 20%,
-      var(--accent-yellow) 15 0%,
-      transparent 1%
-    ),
+  background-image:
+    radial-gradient(circle at 15% 20%, var(--accent-yellow) 15 0%, transparent 1%),
     radial-gradient(circle at 85% 10%, var(--muted) 15 0%, transparent 1%),
     radial-gradient(circle at 70% 60%, var(--paper) 20 0%, transparent 1%),
     radial-gradient(circle at 20% 80%, var(--accent) 10 0%, transparent 1%),
-    /* Medium circles */
-      radial-gradient(
-        circle at 40% 30%,
-        var(--accent-yellow) 08 0%,
-        transparent 0.5%
-      ),
+    radial-gradient(circle at 40% 30%, var(--accent-yellow) 08 0%, transparent 0.5%),
     radial-gradient(circle at 90% 70%, var(--muted) 12 0%, transparent 0.8%),
     radial-gradient(circle at 10% 50%, var(--paper) 10 0%, transparent 0.7%),
-    /* Small scattered dots */
-      radial-gradient(
-        circle at 30px 40px,
-        var(--accent) 05 1px,
-        transparent 1px
-      ),
-    radial-gradient(
-      circle at 80px 120px,
-      var(--accent-yellow) 08 1px,
-      transparent 1px
-    ),
+    radial-gradient(circle at 30px 40px, var(--accent) 05 1px, transparent 1px),
+    radial-gradient(circle at 80px 120px, var(--accent-yellow) 08 1px, transparent 1px),
     radial-gradient(circle at 150px 60px, var(--muted) 06 1px, transparent 1px),
     radial-gradient(circle at 200px 180px, var(--paper) 10 1px, transparent 1px);
 
@@ -99,6 +59,7 @@ body::before {
     100% 100%, 100% 100%, 250px 250px, 300px 300px, 180px 180px, 220px 220px;
 
   animation: floatElements 30s ease-in-out infinite;
+  will-change: transform;
 }
 
 /* Animation for floating elements */
@@ -121,19 +82,12 @@ body::before {
 /* Dark mode adjustments */
 @media (prefers-color-scheme: dark) {
   body {
-    background: linear-gradient(
-      135deg,
-      var(--background) 0%,
-      #252118 25%,
-      #2a1f1a 50%,
-      #1f1815 75%,
-      var(--background) 100%
-    );
+    background: var(--background);
   }
 
-  body::before {
-    background-image: 
-      /* Adjust opacity for dark mode */ radial-gradient(
+  .bg-overlay {
+    background-image:
+      radial-gradient(
         circle at 15% 20%,
         var(--accent-yellow) 25 0%,
         transparent 1%
