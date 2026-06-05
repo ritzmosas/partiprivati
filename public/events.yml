@@ -7,3 +7,11 @@ events:
   ticketLink: "https://eventfrog.de/de/p/konzert/pop-rock/partiprivati-indie-pop-fuer-junge-ohren-7333059577448026207.html"
   price: "10€ Normalpreis, 5€ Kinder"
   status: "confirmed"
+
+- date: "2026-06-13"
+  venue: "Uni Basel"
+  city: "Basel"
+  description: "awar fair festival"
+  ticketLink: ""
+  price: ""
+  status: "confirmed"
