@@ -65,103 +65,21 @@ export default function ReleasesPage() {
           {releasesData.releases.map((release, index) => (
             <div key={index} className="space-huge">
               {/* Full width on mobile, alternate between left and right layouts on desktop */}
-              <div
-                className={`mx-auto md:${
-                  index % 2 === 0 ? "text-block-left" : "text-block-right"
-                }`}
-              >
+              <div className={`mx-auto md:${index % 2 === 0 ? "text-block-left" : "text-block-right"}`}>
                 <div className="release-card max-w-4xl mx-auto">
-                  {/* Album Art Placeholder
-                  <div
-                    className={`mx-auto md:mx-0 md:${
-                      index % 2 === 0 ? "float-left" : "float-right"
-                    } w-60 h-60 paper-bg rough-border flex items-center justify-center mb-6`}
-                  >
-                    <span className="text-[var(--muted)] typewriter text-center text-small md:text-small text-tiny">
-                      [{release.title}
-                      <br />
-                      Cover Art]
-                    </span>
                   
+                  {/* Nur der eingebettete Spotify-Link bleibt aktiv */}
+                  <iframe
+                    src={release.embedLink}
+                    className="w-full h-100"
+                    frameBorder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                  />
 
-                  {/* Release Info */}
-                  
-                    <iframe
-                      src={release.embedLink}
-                      className="w-full h-100"
-                      frameBorder="0"
-                      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                      loading="lazy"
-                    />
-                  
-                        <div className="space-medium">
-                        <div className="mb-6">
-                          {/<h2 className="text-large md:text-medium text-medium font-bold text-[var(--accent)] mb-2">
-                            {release.title}
-                          </h2>
-                          <span className="px-4 py-2 bg-[var(--muted)] text-white text-medium md:text-medium text-small typewriter rounded inline-block">
-                            {release.type}
-                          </span>
-                          <h2 className="text-medium md:text-sm text-[var(--accent-yellow)] mb-2 p-4">
-                            {release.releaseDate}
-                          </h2>
-                          <div className="text-large md:text-large text-medium leading-relaxed handwritten mb-6">
-                            {release.description
-                              .split("\n")
-                              .map((line, lineIndex) => (
-                                <p key={lineIndex} className="mb-4">
-                                  {line}
-                                </p>
-                              ))}
-                          </div>
-                        </div>}
-
-                    {/* Links
-                    {(release.links.bandcamp || release.links.spotify) && (
-                      <div className="mb-8 space-small">
-                        {release.links.bandcamp && (
-                          <a
-                            href={release.links.bandcamp}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="indie-btn text-medium md:text-medium text-small mr-4"
-                          >
-                            Bandcamp
-                          </a>
-                        )}
-                        {release.links.spotify && (
-                          <a
-                            href={release.links.spotify}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="indie-btn text-medium md:text-medium text-small"
-                          >
-                            Spotify
-                          </a>
-                        )}
-                      </div>
-                    )} */}
-
-                    {/* Tracklist
-                    <div className="clear-both">
-                      <h3 className="text-large md:text-large text-medium font-bold mb-4 text-[var(--accent-yellow)]">
-                        Tracklist
-                      </h3>
-                      <ol className="space-small">
-                        {release.tracklist.map((track, trackIndex) => (
-                          <li
-                            key={trackIndex}
-                            className="typewriter flex text-small sm:text-large md:text-large mb-2"
-                          >
-                            <span className="text-[var(--muted)] mr-4 min-w-[3rem]">
-                              {trackIndex + 1}.
-                            </span>
-                            <span>{track}</span>
-                          </li>
-                        ))}
-                      </ol>
-                    </div> */}
-                  </div>
+                  {/* Die restlichen Zusatzinfos (Titel, Beschreibung, Links, Tracklist) 
+                    wurden hier komplett deaktiviert.
+                  */}
                 </div>
               </div>
             </div>
@@ -176,8 +94,7 @@ export default function ReleasesPage() {
                 No Releases Yet
               </h2>
               <p className="text-medium md:text-medium text-small text-[var(--muted)] mb-8 handwritten">
-                We're still figuring out how to record things properly.
-                <br />
+                We're still figuring out how to record things properly. <br />
                 Check back soon for some extremely lo-fi indie goodness!
               </p>
               <Link
