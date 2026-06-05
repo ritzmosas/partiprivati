@@ -47,7 +47,7 @@ export default function Home() {
           <div className="relative w-full max-w-[800px]">
             <div className=" ml-[-8px]">
               <Image
-                src="/Wortmarke-zweizeilig-6.svg"
+                src="/Wortmarke-6.svg"
                 alt="Logo"
                 width={800}
                 height={400}
