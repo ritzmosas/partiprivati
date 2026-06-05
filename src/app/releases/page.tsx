@@ -96,7 +96,7 @@ export default function ReleasesPage() {
                   
                         <div className="space-medium">
                         <div className="mb-6">
-                          {/* <h2 className="text-large md:text-medium text-medium font-bold text-[var(--accent)] mb-2">
+                          {/<h2 className="text-large md:text-medium text-medium font-bold text-[var(--accent)] mb-2">
                             {release.title}
                           </h2>
                           <span className="px-4 py-2 bg-[var(--muted)] text-white text-medium md:text-medium text-small typewriter rounded inline-block">
