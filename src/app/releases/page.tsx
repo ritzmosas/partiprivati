@@ -94,27 +94,27 @@ export default function ReleasesPage() {
                       loading="lazy"
                     />
                   
-                  <div className="space-medium">
-                    <div className="mb-6">
-                      <h2 className="text-large md:text-medium text-medium font-bold text-[var(--accent)] mb-2">
-                        {release.title}
-                      </h2>
-                      <span className="px-4 py-2 bg-[var(--muted)] text-white text-medium md:text-medium text-small typewriter rounded inline-block">
-                        {release.type}
-                      </span>
-                      <h2 className="text-medium md:text-sm text-[var(--accent-yellow)] mb-2 p-4">
-                        {release.releaseDate}
-                      </h2>
-                      <div className="text-large md:text-large text-medium leading-relaxed handwritten mb-6">
-                        {release.description
-                          .split("\n")
-                          .map((line, lineIndex) => (
-                            <p key={lineIndex} className="mb-4">
-                              {line}
-                            </p>
-                          ))}
-                      </div>
-                    </div>
+                        <div className="space-medium">
+                        <div className="mb-6">
+                          {/* <h2 className="text-large md:text-medium text-medium font-bold text-[var(--accent)] mb-2">
+                            {release.title}
+                          </h2>
+                          <span className="px-4 py-2 bg-[var(--muted)] text-white text-medium md:text-medium text-small typewriter rounded inline-block">
+                            {release.type}
+                          </span>
+                          <h2 className="text-medium md:text-sm text-[var(--accent-yellow)] mb-2 p-4">
+                            {release.releaseDate}
+                          </h2>
+                          <div className="text-large md:text-large text-medium leading-relaxed handwritten mb-6">
+                            {release.description
+                              .split("\n")
+                              .map((line, lineIndex) => (
+                                <p key={lineIndex} className="mb-4">
+                                  {line}
+                                </p>
+                              ))}
+                          </div>
+                        </div>}
 
                     {/* Links
                     {(release.links.bandcamp || release.links.spotify) && (
