@@ -147,7 +147,7 @@ export default function Home() {
               href="/events"
               className="indie-btn text-large md:text-large text-medium bg-[var(--accent-yellow)] text-black border-black hover:bg-[var(--accent)] hover:text-white"
             >
-              Tour Daten
+              Tourdaten
             </Link>
           </div>
           <div className="position-center space-medium">
