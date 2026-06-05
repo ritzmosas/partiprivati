@@ -2,23 +2,13 @@
 @import "tailwindcss";
 
 :root {
+  color-scheme: light;
   --background: #ffffff;
-  --foreground: #f7f5f3;
+  --foreground: #1a1a1a;
   --accent: #ff0086;
   --accent-yellow: #fffc00;
   --muted: #7a5bf1;
   --paper: #57edd8;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #141414;
-    --foreground: #f7f5f3;
-    --accent: #ff0086;
-    --accent-yellow: #fffc00;
-    --muted: #57edd8;
-    --paper: #7a5bf1;
-  }
 }
 
 body {
@@ -79,51 +69,6 @@ body {
   }
 }
 
-/* Dark mode adjustments */
-@media (prefers-color-scheme: dark) {
-  body {
-    background: var(--background);
-  }
-
-  .bg-overlay {
-    background-image:
-      radial-gradient(
-        circle at 15% 20%,
-        var(--accent-yellow) 25 0%,
-        transparent 1%
-      ),
-      radial-gradient(circle at 85% 10%, var(--muted) 25 0%, transparent 1%),
-      radial-gradient(circle at 70% 60%, var(--paper) 30 0%, transparent 1%),
-      radial-gradient(circle at 20% 80%, var(--accent) 20 0%, transparent 1%),
-      radial-gradient(
-        circle at 40% 30%,
-        var(--accent-yellow) 15 0%,
-        transparent 0.5%
-      ),
-      radial-gradient(circle at 90% 70%, var(--muted) 20 0%, transparent 0.8%),
-      radial-gradient(circle at 10% 50%, var(--paper) 18 0%, transparent 0.7%),
-      radial-gradient(
-        circle at 30px 40px,
-        var(--accent) 15 1px,
-        transparent 1px
-      ),
-      radial-gradient(
-        circle at 80px 120px,
-        var(--accent-yellow) 20 1px,
-        transparent 1px
-      ),
-      radial-gradient(
-        circle at 150px 60px,
-        var(--muted) 18 1px,
-        transparent 1px
-      ),
-      radial-gradient(
-        circle at 200px 180px,
-        var(--paper) 25 1px,
-        transparent 1px
-      );
-  }
-}
 
 /* Dynamic Typography - Various Sizes */
 .text-tiny {
