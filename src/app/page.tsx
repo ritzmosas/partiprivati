@@ -81,7 +81,7 @@ export default function Home() {
         </div>
 
         {/* Info centered */}
-        <div className="space-huge">
+        {/*<div className="space-huge">
           <div className="position-center space-large">
             <div className="text-small typewriter">Gegründet</div>
             <div className="text-huge md:text-huge text-large text-[var(--accent-yellow)]">
