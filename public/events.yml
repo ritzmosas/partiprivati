@@ -1,12 +1,5 @@
 #Live Events & Shows
 events:
-- date: "2025-11-02"
-  venue: "Haus 37 Vauban"
-  city: "Freiburg"
-  description: "Kinderkonzert"
-  ticketLink: "https://eventfrog.de/de/p/konzert/pop-rock/partiprivati-indie-pop-fuer-junge-ohren-7333059577448026207.html"
-  price: "10€ Normalpreis, 5€ Kinder"
-  status: "confirmed"
 
 - date: "2026-06-13"
   venue: "Uni Basel"
@@ -15,3 +8,52 @@ events:
   ticketLink: ""
   price: ""
   status: "confirmed"
+
+  ⁨⁩
+- date: "2026-07-03"
+  venue: "Rudolstadt Festival"
+  city: "Rudolstadt"
+  description: "Rudolstadt Festival"
+  ticketLink: ""
+  price: ""
+  status: "confirmed"
+
+ - date: "2026-07-04"
+  venue: "Rudolstadt Festival"
+  city: "Rudolstadt"
+  description: "Rudolstadt Festival"
+  ticketLink: ""
+  price: ""
+  status: "confirmed"
+
+- date: "2026-07-18"
+  venue: "Starkenburg"
+  city: "Heppenheim"
+  description: "Starkenburg Festival"
+  ticketLink: ""
+  price: ""
+  status: "confirmed"
+
+- date: "2026-08-01“
+  venue: "Café Roland"
+  city: "Pforzheim“
+  description: ""
+  ticketLink: ""
+  price: ""
+  status: "confirmed“
+
+ - date: "2026-08-02“
+  venue: "Backhaus Gaimersheim"
+  city: "Gaimersheim“
+  description: ""
+  ticketLink: ""
+  price: ""
+  status: "confirmed“
+
+- date: "2026-08-06“
+  venue: "Kramladen“
+  city: "Wien“
+  description: "Support: Angie Zach“
+  ticketLink: „“
+  price: ""
+  status: "confirmed“
