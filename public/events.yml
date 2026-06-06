@@ -18,7 +18,7 @@ events:
   price: ""
   status: "confirmed"
 
- - date: "2026-07-04"
+- date: "2026-07-04"
   venue: "Rudolstadt Festival"
   city: "Rudolstadt"
   description: "Rudolstadt Festival"
@@ -42,7 +42,7 @@ events:
   price: ""
   status: "confirmed“
 
- - date: "2026-08-02“
+- date: "2026-08-02“
   venue: "Backhaus Gaimersheim"
   city: "Gaimersheim“
   description: ""
