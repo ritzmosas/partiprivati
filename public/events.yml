@@ -8,7 +8,6 @@ events:
   ticketLink: ""
   price: ""
   status: "confirmed"
-
   ⁨⁩
 - date: "2026-07-03"
   venue: "Rudolstadt Festival"
@@ -34,26 +33,26 @@ events:
   price: ""
   status: "confirmed"
 
-- date: "2026-08-01“
+ - date: "2026-08-01"
   venue: "Café Roland"
-  city: "Pforzheim“
+  city: "Pforzheim"
   description: ""
   ticketLink: ""
   price: ""
-  status: "confirmed“
+  status: "confirmed"
 
-- date: "2026-08-02“
+- date: "2026-08-02"
   venue: "Backhaus Gaimersheim"
-  city: "Gaimersheim“
+  city: "Gaimersheim"
   description: ""
   ticketLink: ""
   price: ""
-  status: "confirmed“
+  status: "confirmed"
 
-- date: "2026-08-06“
-  venue: "Kramladen“
-  city: "Wien“
-  description: "Support: Angie Zach“
-  ticketLink: „“
+- date: "2026-08-06"
+  venue: "Kramladen"
+  city: "Wien"
+  description: "Support: Angie Zach"
+  ticketLink: ""
   price: ""
-  status: "confirmed“
+  status: "confirmed"
