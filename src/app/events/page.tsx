@@ -95,14 +95,14 @@ export default function EventsPage() {
                     <div className="space-small">
                       <div className="flex flex-col gap-2">
                         <h3 className="text-large font-bold text-[var(--accent)]">
-                          {event.venue}
+                          {event.city}
                         </h3>
                       </div>
                       <p className="text-medium text-[var(--muted)] typewriter mb-4">
                         {formatDate(event.date)}
                       </p>
                       <p className="text-small typewriter mb-2">
-                        {event.time} • {event.city}
+                        {event.time} • {event.venue}
                       </p>
                       <p className="text-medium mb-3 handwritten">
                         {event.description}
