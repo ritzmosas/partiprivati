@@ -33,7 +33,7 @@ events:
   price: ""
   status: "confirmed"
 
- - date: "2026-08-01"
+- date: "2026-08-01"
   venue: "Café Roland"
   city: "Pforzheim"
   description: ""
