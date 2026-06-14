@@ -56,3 +56,11 @@ events:
   ticketLink: ""
   price: ""
   status: "confirmed"
+
+- date: "2026-08-15"
+  venue: ""
+  city: "Basel"
+  description: "Mycelium Festival"
+  ticketLink: ""
+  price: ""
+  status: "confirmed"
