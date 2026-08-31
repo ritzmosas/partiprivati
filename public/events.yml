@@ -64,3 +64,28 @@ events:
   ticketLink: ""
   price: ""
   status: "confirmed"
+
+- date: "2026-09-19"
+  venue: "H15"
+  city: "Freiburg"
+  description: "Jazzfestival Freiburg"
+  ticketLink: ""
+  price: ""
+  status: "confirmed"
+
+- date: "2026-09-21"
+  venue: "Ellis"
+  city: "München"
+  description: "Support Fruchtiger Beigeschmack "
+  ticketLink: ""
+  price: ""
+  status: "confirmed"
+  
+- date: "2026-10-09"
+  venue: "K.I.S.S."
+  city: "Freiburg"
+  description: ""
+  ticketLink: ""
+  price: ""
+  status: "confirmed"
+  
