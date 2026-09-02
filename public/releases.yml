@@ -11,6 +11,18 @@ releases:
     releaseDate: ""
     description: ""
     embedLink: "https://open.spotify.com/embed/track/0iEKMRw4xulJkxOa69XQK1?si=36cb1f6b5e594e1a"
+    
+  - title: ""
+    type: ""
+    releaseDate: ""
+    description: ""
+    embedLink: "https://open.spotify.com/embed/track/12K6RZaEw6yQ9nekUXyOAg?si=8bbb6501ceca4c07"
+
+  - title: ""
+    type: ""
+    releaseDate: ""
+    description: ""
+    embedLink: "https://open.spotify.com/embed/track/04ijy1daeFKa3kyAS5hxB6?si=d03368ce96974957"
 
   - title: ""
     type: ""
@@ -29,16 +41,4 @@ releases:
     releaseDate: ""
     description: ""
     embedLink: "https://open.spotify.com/embed/track/6LNYDQ55cblIGGP5qfNBJf"
-
-  - title: ""
-    type: ""
-    releaseDate: ""
-    description: ""
-    embedLink: "https://open.spotify.com/embed/track/12K6RZaEw6yQ9nekUXyOAg?si=8bbb6501ceca4c07"
-
-  - title: ""
-    type: ""
-    releaseDate: ""
-    description: ""
-    embedLink: "https://open.spotify.com/embed/track/04ijy1daeFKa3kyAS5hxB6?si=d03368ce96974957"
 
