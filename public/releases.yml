@@ -34,11 +34,11 @@ releases:
     type: ""
     releaseDate: ""
     description: ""
-    embedLink: "https://open.spotify.com/embed/track/6LNYDQ55cblIGGP5qfNBJf"
+    embedLink: "https://open.spotify.com/embed/track/12K6RZaEw6yQ9nekUXyOAg?si=8bbb6501ceca4c07"
 
   - title: ""
     type: ""
     releaseDate: ""
     description: ""
-    embedLink: "<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/04ijy1daeFKa3kyAS5hxB6?utm_source=generator&theme=0&si=34634f3766e74652" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>"
+    embedLink: "https://open.spotify.com/embed/track/04ijy1daeFKa3kyAS5hxB6?si=d03368ce96974957"
 
