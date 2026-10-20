@@ -157,6 +157,14 @@ export default function Home() {
             >
               Releases
             </Link>
+           </div>
+           <div className="position-center space-medium">
+            <Link
+              href="https://drive.google.com/file/d/1XkAdJRjYuydp86IiSEuKmOnzrH_0O1pP/view"
+              className="indie-btn text-large md:text-large text-medium bg-[var(--accent-yellow)] text-black border-black hover:bg-[var(--accent)] hover:text-white"
+            >
+              Electronic Press Kit
+            </Link>
           </div>
         </div>
       </main>
