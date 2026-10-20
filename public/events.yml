@@ -90,10 +90,10 @@ events:
   status: "confirmed"
 
 - date: "2027-01-25"
-  venue: "Internationale Kulturbörse Freiburg"
-  city: "Freiburg"
+  venue: ""
+  city: "Internationale Kulturbörse Freiburg"
   description: ""
-  ticketLink: ""
+  ticketLink: "https://www.kulturboerse-freiburg.de/de/"
   price: ""
   status: "confirmed"
   
